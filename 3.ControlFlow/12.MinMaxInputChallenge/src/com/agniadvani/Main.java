@@ -19,7 +19,7 @@ public class Main {
                 if (num > max) {
                     max = num;
                 }
-            
+             
             } else {
                 System.out.println("invalid input.");
                 break;
