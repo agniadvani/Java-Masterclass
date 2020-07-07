@@ -14,5 +14,10 @@ public class Main {
         System.out.println(rogerWaters.getCustomerName());
         System.out.println(rogerWaters.getEmail());
         System.out.println(rogerWaters.getPhoneNumber());
+
+        VipCustomer davidGilmour = new VipCustomer("David Gilmour",1000);
+        System.out.println(davidGilmour.getName());
+        System.out.println(davidGilmour.getCreditLimit());
+        System.out.println(davidGilmour.getEmailID());
     }
 }
