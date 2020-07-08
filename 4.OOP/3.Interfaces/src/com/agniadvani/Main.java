@@ -9,5 +9,10 @@ public class Main {
         System.out.println("************");
         dog.eat();
         System.out.println(dog.getName());
+        dog.walk();
+        dog.run();
+        System.out.println("************");
+        Fish fish = new Fish("Goldy",2,1,2,2,2);
+        fish.swim(5);
     }
 }
